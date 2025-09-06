@@ -26,4 +26,6 @@ cite {
     border-top: 1px solid white;
     padding-top: 10px;
     text-align: right;
+    position: relative;
+    right: 0;
 }

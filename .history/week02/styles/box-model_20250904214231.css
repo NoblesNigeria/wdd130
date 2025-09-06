@@ -11,7 +11,7 @@
 	display: relative;
     float: right;
     margin-left: 20px;
-    width: 200px;
+    width: 150px;
     border: 5px solid white;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
@@ -23,7 +23,7 @@ blockquote {
 cite {
 	display: relative;
     font-size: 20px;
-    border-top: 1px solid white;
+    border-top: 1px block white;
     padding-top: 10px;
     text-align: right;
 }

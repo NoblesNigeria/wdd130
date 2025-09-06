@@ -22,8 +22,8 @@ blockquote {
 
 cite {
 	display: relative;
+    float: right;
     font-size: 20px;
-    border-top: 1px solid white;
-    padding-top: 10px;
-    text-align: right;
+    margin-top: 10px;
+    position: bottom-right;
 }
