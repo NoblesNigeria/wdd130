@@ -1,0 +1,8 @@
+.root{
+    --main-bg-color: #e0f7fa;
+    --main-text-color: #004d40;
+    --accent-color: #00796b;
+    --font-family: 'Arial', sans-serif;
+    --header-font-size: 2.5em;
+    --body-font-size: 1em;
+}
