@@ -65,10 +65,8 @@ article{
     top: 400px;
     width: 80%;
     border: 2px;
-    padding: 2px;
-    margin:2px;
-    color: black;
-    background-color: white;
+    padding: 1px;
+    color:#e0f7fa
 }
 .hero article img{
     float: right;
