@@ -69,6 +69,7 @@ article{
     margin:2px;
     color: black;
     background-color: white;
+    float:center;
 }
 .hero article img{
     float: right;
