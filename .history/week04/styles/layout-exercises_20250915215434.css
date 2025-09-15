@@ -62,8 +62,9 @@ div {
 
 .container3 {
     display: grid;
-    grid-template-columns: repeat(3);
-    gap : 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    column-gap: 0.5rem;
     align-items: center;
     justify-items: center;
     height: 250px;
@@ -81,7 +82,7 @@ div {
 }
 
 .three {
-    margin: 0;
+    margin: .5rem;
     background-color: #def;
     width: 100%;
     height: 50px;

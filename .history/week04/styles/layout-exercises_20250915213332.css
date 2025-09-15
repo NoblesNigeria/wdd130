@@ -62,11 +62,11 @@ div {
 
 .container3 {
     display: grid;
-    grid-template-columns: repeat(3);
-    gap : 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     align-items: center;
     justify-items: center;
-    height: 250px;
+    height: 400px;
     /* write declarations here */
 
 }
@@ -81,10 +81,10 @@ div {
 }
 
 .three {
-    margin: 0;
-    background-color: #def;
-    width: 100%;
-    height: 50px;
-
+    margin: .25rem;
+    background-color: #abd;
+    height: 100px;
+    width: 100px;
+    
 
 }
