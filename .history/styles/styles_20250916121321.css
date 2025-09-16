@@ -18,10 +18,7 @@ main {
 
 }
 aside {
-    width: 20rem;
-    position: relative;
-    grid-row:1/2;
-    grid-column:1/2;
+    grid
 }
 nav {
     background-color: darkblue;
