@@ -117,7 +117,7 @@ article{
 }
 footer{
     display: grid;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
     background-color:blue;
     color: white;
     height: 50px;

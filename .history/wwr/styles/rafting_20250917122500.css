@@ -115,23 +115,24 @@ article{
     width: 125px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
-footer{
-    display: grid;
-    grid-template-rows: repeat(5, auto);
-    background-color:blue;
-    color: white;
-    height: 50px;
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9rem;
+    margin: 2px;
 }
-p, footer a{
-    display: flex;
-    flex-direction: row;
-    justify-content: 1/5;
-    align-items: center;
-    position: relative;
-    grid-row: 1/5;
+p{
     font-size: var(--body-font-size);
+    line-height: 1.6;
+    margin-bottom: 1em;
 }
-footer a img{
-    width: 30px;
-    height: 30px;
+nav img {
+    width: 50px;
+    height: auto;
+    display: relative;
+    float: right;
+    top: 150px;
+;
 }
