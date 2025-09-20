@@ -32,9 +32,10 @@ header nav a {
     font-weight: bold;
     font-size: 1.2rem;
     padding: 5px;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     border: 2px solid var(--secondary-color);
+    float:right;
 }
 
 header img{
