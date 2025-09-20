@@ -85,18 +85,12 @@ aside h2{
     position: block;
     grid-column: 1/5;
 }
-aside p{
+aside p img{
     display: flex;
     flex-direction: column;
     justify-content: 1/2,4/5;
     grid-column: 1/2,4/5;
-    width: 250px;
-    grid-row: 2;
-}
-aside img{
-    width: 250px;
-    display: flex;
-    grid-column: 2/3;
+    width: 300px;
     grid-row: 2;
 }
 
