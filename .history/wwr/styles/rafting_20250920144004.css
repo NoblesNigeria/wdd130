@@ -75,7 +75,6 @@ section h2{
     padding: 8px;
     position: block;
     grid-column: 1/6;
-}
 aside h2{
     display: flex;
     flex-direction: column;
@@ -83,15 +82,13 @@ aside h2{
     justify-content: 3/4;
     padding: 8px;
     position: block;
-    grid-column: 1/5;
+    grid-column: 1/6;}
 }
 aside p{
     display: flex;
+    width: 200px;
     flex-direction: column;
-    justify-content: 1/2,4/5;
-    grid-column: 1/2,4/5;
-    width: 300px;
-    grid-row: 2;
+    grid-column: 1/5;
 }
 
 figure img,figcaption{

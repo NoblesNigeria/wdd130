@@ -80,7 +80,7 @@ aside h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: 3/4;
+    justify-content: 3;
     padding: 8px;
     position: block;
     grid-column: 1/5;
@@ -88,10 +88,8 @@ aside h2{
 aside p{
     display: flex;
     flex-direction: column;
-    justify-content: 1/2,4/5;
     grid-column: 1/2,4/5;
-    width: 300px;
-    grid-row: 2;
+    width: 200px;
 }
 
 figure img,figcaption{

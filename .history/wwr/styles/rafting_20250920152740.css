@@ -88,10 +88,10 @@ aside h2{
 aside p{
     display: flex;
     flex-direction: column;
-    justify-content: 1/2,4/5;
+    justify-content: 2/2,2/5;
     grid-column: 1/2,4/5;
     width: 300px;
-    grid-row: 2;
+    grid-row: 2/5;
 }
 
 figure img,figcaption{
