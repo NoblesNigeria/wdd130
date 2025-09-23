@@ -49,33 +49,3 @@ input, select, textarea {
   padding: 0.5rem;
   font-size: 1.1rem;
 }
-input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  vertical-align: bottom;
-}
-label {
-  text-align: left;
-  padding-right: 1rem;
-}
-button {
-  margin: 1rem;
-  background-color: navy;
-  color: #fff;
-  border: none;
-  border-radius: .5rem;
-  padding: .75rem;
-  font-size: 1.2rem;
-}
-
-button:hover {
-  background-color: darkgreen;
-}
-footer {
-  margin: 1rem auto 0;
-  width: 650px;
-  text-align: center;
-  font-size: 0.8em;
-  color: #777;
-  border-top: 1px solid #ccc;
-}
