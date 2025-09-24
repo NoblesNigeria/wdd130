@@ -104,7 +104,7 @@ form{
     width:400px;
 }
 
-input[type="checkbox"]{
+input[type="radio"]{
     display:flex;
     flex-direction: row;
     align-items: left;
