@@ -101,7 +101,8 @@ fieldset{
     display: flex;
     flex-direction:column;
     grid-column:4/6;
-    width:400px;
+    width:300px;
+    height: auto;
 }
 
 input[type="radio"]{
@@ -121,7 +122,7 @@ button{
     width: 100px
 }
 aside img{
-    width: 400px;
+    width: 300px;
     display: flex;
     grid-column: 1/3;
 }

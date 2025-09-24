@@ -77,62 +77,33 @@ section h2{
     position: block;
     grid-column: 1/6;
 }
-aside h2{
+aside h2, h3{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: 3/4;
     padding: 8px;
     position: block;
-    grid-column: 1/6;
-    grid-row:1;
+    grid-column:1/6
 }
-aside h3{
+aside form{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: 3/4;
-    padding: 2px;
-    position: block;
-    grid-column: 1/6;
-    font-size: medium;
-}
-fieldset{
-    display: flex;
-    flex-direction:column;
     grid-column:4/6;
-    width:400px;
-}
-
-input[type="radio"]{
-    flex-direction: row;
-    align-items: right;
-}
-label{
-    flex-direction:row;
-    text-align: left;
-
-}
-button{
-    display:flex;
-    flex-direction: column;
-    grid-column:4;
-    align-items: right;
-    width: 100px
+    grid-row:3/4
 }
 aside img{
-    width: 400px;
+    width: 250px;
     display: flex;
-    grid-column: 1/3;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 
 figure img,figcaption{
     width: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-column: 1/2, 3/4, 5/6;
+    grid-column: 1/5;
 }
 
 .div{
