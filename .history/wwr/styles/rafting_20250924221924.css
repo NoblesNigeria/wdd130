@@ -110,7 +110,7 @@ input[type="radio"]{
 }
 label{
     flex-direction:row;
-    text-align: right;
+    text-align: left;
 
 }
 button{
