@@ -125,7 +125,7 @@ button{
 }
 iframe {
     width: 400px;
-    height: 300px;
+    height: 250px;
     display: flex;
     grid-column: 1/3;
 }

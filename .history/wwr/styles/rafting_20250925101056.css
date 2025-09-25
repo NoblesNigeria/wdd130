@@ -123,9 +123,8 @@ button{
     align-items: right;
     width: 100px
 }
-iframe {
+iframe img{
     width: 400px;
-    height: 300px;
     display: flex;
     grid-column: 1/3;
 }
