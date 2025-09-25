@@ -172,9 +172,9 @@ footer{
 p, footer a{
     display: flex;
     flex-direction: row;
+    justify-content: 1/5;
     align-items: center;
     position: relative;
-    grid-row:1/5;
     font-size: var(--body-font-size);
 }
 footer a img{

@@ -71,7 +71,9 @@ section h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: 3/4;
     padding: 8px;
+    position: block;
     grid-column: 1/6;
 }
 aside h2{
@@ -87,7 +89,9 @@ aside h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: 3/4;
     padding: 2px;
+    position: block;
     grid-column: 1/6;
     font-size: medium;
 }
@@ -101,6 +105,7 @@ form{
 input[type="checkbox"]{
     display:flex;
     flex-direction: row;
+    align-items: left;
     text-align: right;
 }
 label{
@@ -113,6 +118,7 @@ button{
     display:flex;
     flex-direction: column;
     grid-column:4;
+    align-items: right;
     width: 100px
 }
 iframe {
@@ -128,6 +134,7 @@ figure img,figcaption{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-column: 1/2, 3/4, 5/6;
 }
 
 .div{
@@ -172,9 +179,10 @@ footer{
 p, footer a{
     display: flex;
     flex-direction: row;
+    justify-content: 1/5;
     align-items: center;
     position: relative;
-    grid-row:1/5;
+    grid-row: 1/5;
     font-size: var(--body-font-size);
 }
 footer a img{
