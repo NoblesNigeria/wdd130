@@ -115,21 +115,7 @@ form{
     width:300px;
     padding: 15px;
 }
-table {
-    border-collapse:collapse;
-}
-th,td {
-    border:1px solid;
-}
-thead th {
-    background-color: lightblue;
-}
-tbody th{
-    background-color:lightgray;
-}
-tbody td {
-    color: black;
-}
+
 
 input[type="checkbox"]{
     display:flex;

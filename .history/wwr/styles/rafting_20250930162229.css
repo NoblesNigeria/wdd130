@@ -127,9 +127,6 @@ thead th {
 tbody th{
     background-color:lightgray;
 }
-tbody td {
-    color: black;
-}
 
 input[type="checkbox"]{
     display:flex;
