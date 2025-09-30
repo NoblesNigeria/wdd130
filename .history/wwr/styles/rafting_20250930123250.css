@@ -114,6 +114,7 @@ form{
     grid-column:4/6;
     width:300px;
     padding: 15px;
+    grid-row:6;
 }
 
 input[type="checkbox"]{
@@ -148,7 +149,6 @@ figure img,figcaption{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-row:6;
 }
 
 .div{

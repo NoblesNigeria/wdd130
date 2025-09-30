@@ -112,7 +112,7 @@ form{
     display: flex;
     flex-direction:column;
     grid-column:4/6;
-    width:300px;
+    width:350px;
     padding: 15px;
 }
 
@@ -125,8 +125,8 @@ input[type="checkbox"]{
 label{
     display:flex;
     flex-direction:row;
+    text-align: right;
     padding: 2px;
-    align-items: left;
 
 }
 button{
@@ -148,7 +148,6 @@ figure img,figcaption{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-row:6;
 }
 
 .div{
